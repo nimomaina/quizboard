@@ -1,46 +1,50 @@
-.panel{
+.panel {
   display: none;
 }
-.align{
+
+.align {
   padding: 10px;
   width: 200px;
-  margin-left: 40%;
-  margin-right: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
   border: 2px;
   color: #000;
-  background-color: #8FD8D8	;
+  background-color: #8FD8D8;
   font-family: georgia;
   font-weight: bold;
   font-size: 18px;
   border-radius: 10px;
 }
-.left{
+
+.left {
   padding: 10px;
-  width: 200px;
+  width: 100px;
   border: 2px;
   color: #000;
-  background-color: #8FD8D8	;
+  margin-left: 5%;
+  background-color: #8FD8D8;
   font-family: georgia;
   font-weight: bold;
   font-size: 18px;
   border-radius: 10px;
   float: left;
-
 }
-.right{
+
+.right {
   padding: 10px;
-  width: 200px;
+  width: 150px;
   border: 2px;
   color: #000;
-  background-color: #8FD8D8	;
+  margin-right: 5%;
+  background-color: #8FD8D8;
   font-family: georgia;
   font-weight: bold;
   font-size: 18px;
   border-radius: 10px;
   float: right;
-
 }
-.jumbotron{
+
+.jumbotron {
   padding-top: 20px;
   text-align: center;
   text-decoration-style: wavy;
@@ -50,22 +54,25 @@
   font-family: georgia;
   font-style: italic;
   font-weight: bold;
-
 }
-.panel-heading{
+
+.panel-heading {
   font-weight: bold;
   background-color: #8FD8D8;
 }
-.panel-body{
+
+.panel-body {
   padding-left: 30px;
   font-family: georgia;
   font-weight: 500;
   font-size: 18px;
 }
-#footer{
+
+#footer {
   height: 100px;
 }
-#result{
+
+#result {
   text-align: center;
   padding: 20px;
   margin: 20px;
