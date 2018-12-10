@@ -6,6 +6,35 @@ $(document).ready(function() {
     $("#question1").hide();
   });
 
+  $("#question2 button").click(function(){
+    var quiz2 = $("input:radio[name=two]:checked").val();
+    $("#question3").show();
+    $("#question2").hide();
+  });
+
+  $("#question3 button").click(function(){
+    var quiz3 = $("input:radio[name=three]:checked").val();
+    $("#question4").show();
+    $("#question3").hide();
+  });
+
+  $("#question4 button").click(function(){
+    var quiz4 = $("input:radio[name=four]:checked").val();
+    $("#question5").show();
+    $("#question4").hide();
+  });
+
+  $("#question5 button").click(function(){
+    var quiz5 = $("input:radio[name=five]:checked").val();
+    $("#question6").show();
+    $("#question5").hide();
+  });
+
+  $("#question6 button").click(function(){
+    var quiz6 = $("input:radio[name=six]:checked").val();
+    $("#question6").show();
+  });
+
 
   $("form.questions").submit(function(event) {
     var quiz2 = $("input:radio[name=two]:checked").val();
