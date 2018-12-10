@@ -20,8 +20,8 @@
 <body>
   <div class="container">
     <div class="jumbotron">
-      <h1>JavaScript QuizBoard</h1>
-      <p>Test yourself on basic JavaScript. Incase yo are stuck you can always click the hint button. Its never that serious!</p>
+      <h2>JavaScript QuizBoard</h2>
+      <p>Test yourself on basic JavaScript with these questions.</p>
     </div> <!-- end of jumbotron-->
     <form class="questions" action="index.html" method="post">
 
@@ -44,7 +44,7 @@
         </div>
         <!--End of panel body-->
         <div class="panel-footer">
-          <button type="button">Next Question</button>
+          <button class="align" type="button">Next Question</button>
         </div>
       </div><!-- end of panel 1-->
 
@@ -81,7 +81,7 @@
         <!--End of panel body-->
 
         <div class="panel-footer">
-          <button type="button" onclick="showNext();">Next Question</button>
+          <button class="align" type="button" onclick="showNext();">Next Question</button>
         </div>
       </div>
       <!-- end of panel 2-->
@@ -111,7 +111,7 @@
 
         </div>
         <div class="panel-footer">
-          <button type="button" onclick="showNext();">Next Question</button>
+          <button class="align" type="button" onclick="showNext();">Next Question</button>
         </div>
       </div>
       <!-- end of panel 3-->
@@ -142,7 +142,7 @@
 
         </div>
         <div class="panel-footer">
-          <button type="button" onclick="showNext();">Next Question</button>
+          <button class="align" type="button" onclick="showNext();">Next Question</button>
         </div>
       </div>
       <!-- end of panel 4-->
@@ -173,7 +173,7 @@
 
         </div>
         <div class="panel-footer">
-          <button type="button" onclick="showNext();">Next Question</button>
+          <button class="align" type="button" onclick="showNext();">Next Question</button>
         </div>
       </div>
       <!-- end of panel 5-->
@@ -209,9 +209,9 @@
 
         </div>
         <!--End of panel body-->
-        <div class="panel-footer">
-          <button type="submit" class="btn">Submit</button>
-          <input class="button" type="reset" value="Redo Quiz" onclick='location.reload();'>
+        <div class="panel-footer" id="footer">
+          <button class="left" type="submit">Submit</button>
+          <button class="right" type="reset" onclick='location.reload();'>Redo Quiz</button>
 
         </div>
         <div id="result">
