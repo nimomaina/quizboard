@@ -24,7 +24,6 @@
   font-weight: bold;
   font-size: 18px;
   border-radius: 10px;
-  margin-left: 10%;
   float: left;
 
 }
@@ -38,7 +37,6 @@
   font-weight: bold;
   font-size: 18px;
   border-radius: 10px;
-  margin-right: 10%;
   float: right;
 
 }
@@ -65,7 +63,7 @@
   font-size: 18px;
 }
 #footer{
-  height: 80px;
+  height: 100px;
 }
 #result{
   text-align: center;

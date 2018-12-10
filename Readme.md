@@ -12,7 +12,8 @@ This is a site that allow users to answer questions from a multiple choice quest
 * It checks if the answer is correct and awards scores per answer.
 * It calculates for the user the total core and outputs the result.
 
-## Behaviour Driven Development (BDD)
+## Specifications
+* The site gives questions and requires users to select answers.
 * The site allows a user to select only one answer per question.
 * It compares the answer selected and the value it has.
 * Depending on the value each answer the user selects, it calculates the total score and outputs to the user
