@@ -30,11 +30,7 @@ $(document).ready(function() {
     $("#question5").hide();
   });
 
-  $("#question6 button").click(function(){
-    var quiz6 = $("input:radio[name=six]:checked").val();
-    $("#result").show();
-    $("#question6").hide();
-  });
+
 
 
   $("form.questions").submit(function(event) {
@@ -49,9 +45,9 @@ $(document).ready(function() {
 
     $("button").click(function() {
       $("#result-showing").toggle();
-      $("#quiz-hidden").toggle();
+      $("#questions-hidden").toggle();
     });
-    $("form#quiz").hide();
+    $("form#questions").hide();
     $("#result").show();
     event.preventDefault();
   });
