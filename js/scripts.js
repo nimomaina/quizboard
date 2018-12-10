@@ -23,18 +23,18 @@ $(document).ready(function() {
 
   var visibleDiv = 0;
   function showDive(){
-    $('.panel:eq('+ visibleDiv +')').show();
+    $('.panel-info:eq('+ visibleDiv +')').show();
   }
   showDiv();
 
   function showNext(){
-    $('.panel').hide();
+    $('.panel-info').hide();
     if(visibleDiv == $('.panel').length){
       visibleDiv = 0;
     }else {
       visibleDiv ++;
     }
-    showDiv;
+    showDiv();
   }
 
   $('#showanswer').click(function() {
