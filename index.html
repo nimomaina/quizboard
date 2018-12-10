@@ -24,7 +24,7 @@
     </div> <!-- end of jumbotron-->
     <form class="questions" action="index.html" method="post">
 
-      <div class="panel panel-info">
+      <div class="panel panel-info" id="question1">
         <div class="panel-heading">QUESTION 1/6</div>
         <div class="panel-body">
           <p>Is JavaScript a case-sensitive language?</p>
@@ -40,20 +40,21 @@
               False
             </label>
           </div>
-        </div><!--End of panel body-->
+        </div>
+        <!--End of panel body-->
         <div class="panel-footer">
           <input type="button" value="Show Answer" id="showanswer" />
-          <input type="button" value="Hide Answer" id="hideanswer"  />
+          <input type="button" value="Hide Answer" id="hideanswer" />
           <br>
           <br>
           <div id="dialog" title="Basic dialog" class="Question">
             <p class="answer">True</p>
           </div>
-          <button type="button" onclick="showNext();">Next Question</button>
+          <button type="button">Next Question</button>
         </div>
       </div><!-- end of panel 1-->
 
-      <div class="panel panel-info">
+      <div class="panel panel-info" id="question2">
         <div class="panel-heading">QUESTION 2/6</div>
         <div class="panel-body">
           <p>Which built-in method combines the text of two strings and returns a new string?</p>
@@ -82,11 +83,12 @@
             </label>
           </div>
 
-        </div><!--End of panel body-->
+        </div>
+        <!--End of panel body-->
 
         <div class="panel-footer">
           <input type="button" value="Show Answer" id="showanswer" />
-          <input type="button" value="Hide Answer" id="hideanswer"/>
+          <input type="button" value="Hide Answer" id="hideanswer" />
           <br>
           <br>
           <div id="dialog" title="Basic dialog" class="Question">
@@ -97,7 +99,7 @@
       </div>
       <!-- end of panel 2-->
 
-      <div class="panel panel-info">
+      <div class="panel panel-info" id="question3">
         <div class="panel-heading">QUESTION 3/6</div>
         <div class="panel-body">
           <p>Which of the following function of String object returns the calling string value converted to lower case while respecting the current locale?</p>
@@ -134,7 +136,7 @@
       </div>
       <!-- end of panel 3-->
 
-      <div class="panel panel-info">
+      <div class="panel panel-info" id="question4">
         <div class="panel-heading">QUESTION 4/6</div>
         <div class="panel-body">
           <p>What is the difference between “==” and “===”?
@@ -161,7 +163,7 @@
         </div>
         <div class="panel-footer">
           <input type="button" value="Show Answer" id="showanswer" />
-          <input type="button" value="Hide Answer" id="hideanswer"/>
+          <input type="button" value="Hide Answer" id="hideanswer" />
           <br>
           <br>
           <div id="dialog" title="Basic dialog" class="Question">
@@ -172,7 +174,7 @@
       </div>
       <!-- end of panel 4-->
 
-      <div class="panel panel-info">
+      <div class="panel panel-info" id="question5">
         <div class="panel-heading">QUESTION 5/6</div>
         <div class="panel-body">
           <p>What are the ways of making single line comments in JavaScript?</p>
@@ -193,12 +195,13 @@
               <input type="radio" name="five" value="0">
               None of the above
             </label>
-          </div><!--End of panel body-->
+          </div>
+          <!--End of panel body-->
 
         </div>
         <div class="panel-footer">
           <input type="button" value="Show Answer" id="showanswer" />
-          <input type="button" value="Hide Answer" id="hideanswer"  />
+          <input type="button" value="Hide Answer" id="hideanswer" />
           <br>
           <br>
           <div id="dialog" title="Basic dialog" class="Question">
@@ -211,20 +214,20 @@
       </div>
       <!-- end of panel 5-->
 
-      <div class="panel panel-info">
+      <div class="panel panel-info" id="question6">
         <div class="panel-heading">QUESTION 6/6</div>
         <div class="panel-body">
           <p>Which of the following function of Array object creates a new array with the results of calling a provided function on every element in this array? </p>
           <div class="radio">
             <label>
               <input type="radio" name="six" value="0">
-               push()
+              push()
             </label>
           </div>
           <div class="radio">
             <label>
               <input type="radio" name="six" value="0">
-             join()
+              join()
             </label>
           </div>
           <div class="radio">
@@ -240,10 +243,11 @@
             </label>
           </div>
 
-        </div> <!--End of panel body-->
+        </div>
+        <!--End of panel body-->
         <div class="panel-footer">
           <input type="button" value="Show Answer" id="showanswer" />
-          <input type="button" value="Hide Answer" id="hideanswer"/>
+          <input type="button" value="Hide Answer" id="hideanswer" />
           <br>
           <br>
           <div id="dialog" title="Basic dialog" class="Question">
@@ -264,5 +268,4 @@
   </div> <!-- end of container-->
 
 </body>
-
 </html>

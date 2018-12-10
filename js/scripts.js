@@ -1,8 +1,13 @@
 $(document).ready(function() {
 
+  $("#question1 button").click(function(){
+    var quiz1 = $("input:radio[name=one]:checked").val();
+    $("#question2").show();
+    $("#question1").hide();
+  });
+
 
   $("form.questions").submit(function(event) {
-    var quiz1 = $("input:radio[name=one]:checked").val();
     var quiz2 = $("input:radio[name=two]:checked").val();
     var quiz3 = $("input:radio[name=three]:checked").val();
     var quiz4 = $("input:radio[name=four]:checked").val();
@@ -22,14 +27,14 @@ $(document).ready(function() {
 
 
   var visibleDiv = 0;
-  function showDive(){
+  function showDiv(){
     $('.panel-info:eq('+ visibleDiv +')').show();
   }
   showDiv();
 
   function showNext(){
     $('.panel-info').hide();
-    if(visibleDiv == $('.panel').length){
+    if(visibleDiv == $('.panel-info').length){
       visibleDiv = 0;
     }else {
       visibleDiv ++;
