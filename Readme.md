@@ -1,5 +1,5 @@
 # Question Board
-A multiple choice question board that allows users to answer and gives a score.
+A multiple choice question board website - 
  https://nimomaina.github.io/quizboard/
 
 ## By Wairimu Maina
