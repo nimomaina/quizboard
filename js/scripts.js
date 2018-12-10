@@ -2,12 +2,13 @@ $(document).ready(function(){
 
 
       $("form.questions").submit(function(event){
-      var q1= $("input:radio[name=q1]:checked").val();
-      var q2= $("input:radio[name=q2]:checked").val();
-      var q3= $("input:radio[name=q3]:checked").val();
-      var q4= $("input:radio[name=q4]:checked").val();
-      var q5= $("input:radio[name=q5]:checked").val();
-      var result=parseInt(q1)+parseInt(q2)+parseInt(q3)+parseInt(q4)+parseInt(q5);
+      var quiz1= $("input:radio[name=one]:checked").val();
+      var quiz2= $("input:radio[name=two]:checked").val();
+      var quiz3= $("input:radio[name=three]:checked").val();
+      var quiz4= $("input:radio[name=four]:checked").val();
+      var quiz5= $("input:radio[name=five]:checked").val();
+      var quiz6= $("input:radio[name=six]:checked").val();
+      var result=parseInt(quiz1)+parseInt(quiz2)+parseInt(quiz3)+parseInt(quiz4)+parseInt(quiz5)+parseInt(quiz6);
       $("#result").text("YOU SCORED: " +result + "%");
 
       $("button").click(function() {
