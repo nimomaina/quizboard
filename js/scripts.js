@@ -32,7 +32,8 @@ $(document).ready(function() {
 
   $("#question6 button").click(function(){
     var quiz6 = $("input:radio[name=six]:checked").val();
-    $("#question6").show();
+    $("#result").show();
+    $("#question6").hide();
   });
 
 
@@ -56,5 +57,33 @@ $(document).ready(function() {
   });
 
 
+  var visibleDiv = 0;
+  function showDiv(){
+    $('.panel-info:eq('+ visibleDiv +')').show();
+  }
+  showDiv();
 
+  function showNext(){
+    $('.panel-info').hide();
+    if(visibleDiv == $('.panel-info').length){
+      visibleDiv = 0;
+    }else {
+      visibleDiv ++;
+    }
+    showDiv();
+  }
+
+  $('#showanswer').click(function() {
+    $('.Question, p').show();
+    $('#showanswer').hide();
+
+    $('#hideanswer').show();
+  });
+
+  $('#hideanswer').click(function() {
+
+    $('.answer', ).hide();
+    $('#showanswer').show();
+    $('#hideanswer').hide();
+  });
 });
