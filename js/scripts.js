@@ -9,7 +9,7 @@ $(document).ready(function(){
       var quiz5= $("input:radio[name=five]:checked").val();
       var quiz6= $("input:radio[name=six]:checked").val();
       var result=parseInt(quiz1)+parseInt(quiz2)+parseInt(quiz3)+parseInt(quiz4)+parseInt(quiz5)+parseInt(quiz6);
-      $("#result").text("YOUR SCORE IS " +result+ "/100%");
+      $("#result").text("YOUR SCORE IS " +result+ " / 100%");
 
       $("button").click(function() {
           $("#result-showing").toggle();
