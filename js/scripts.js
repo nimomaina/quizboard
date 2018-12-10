@@ -1,37 +1,34 @@
 $(document).ready(function() {
 
-  $("#question1 button").click(function(){
+  $("#question1 button").click(function() {
     var quiz1 = $("input:radio[name=one]:checked").val();
     $("#question2").show();
     $("#question1").hide();
   });
 
-  $("#question2 button").click(function(){
+  $("#question2 button").click(function() {
     var quiz2 = $("input:radio[name=two]:checked").val();
     $("#question3").show();
     $("#question2").hide();
   });
 
-  $("#question3 button").click(function(){
+  $("#question3 button").click(function() {
     var quiz3 = $("input:radio[name=three]:checked").val();
     $("#question4").show();
     $("#question3").hide();
   });
 
-  $("#question4 button").click(function(){
+  $("#question4 button").click(function() {
     var quiz4 = $("input:radio[name=four]:checked").val();
     $("#question5").show();
     $("#question4").hide();
   });
 
-  $("#question5 button").click(function(){
+  $("#question5 button").click(function() {
     var quiz5 = $("input:radio[name=five]:checked").val();
     $("#question6").show();
     $("#question5").hide();
   });
-
-
-
 
   $("form.questions").submit(function(event) {
     var quiz1 = $("input:radio[name=one]:checked").val();
@@ -45,41 +42,29 @@ $(document).ready(function() {
 
     $("button").click(function() {
       $("#result-showing").toggle();
-      $("#questions-hidden").toggle();
+      $("#question6-hidden").toggle();
     });
-    $("form#questions").hide();
+    $("form#question6").hide();
     $("#result").show();
     event.preventDefault();
   });
 
 
   var visibleDiv = 0;
-  function showDiv(){
-    $('.panel-info:eq('+ visibleDiv +')').show();
+
+  function showDiv() {
+    $('.panel-info:eq(' + visibleDiv + ')').show();
   }
   showDiv();
 
-  function showNext(){
+  function showNext() {
     $('.panel-info').hide();
-    if(visibleDiv == $('.panel-info').length){
+    if (visibleDiv == $('.panel-info').length) {
       visibleDiv = 0;
-    }else {
-      visibleDiv ++;
+    } else {
+      visibleDiv++;
     }
     showDiv();
   }
 
-  $('#showanswer').click(function() {
-    $('.Question, p').show();
-    $('#showanswer').hide();
-
-    $('#hideanswer').show();
-  });
-
-  $('#hideanswer').click(function() {
-
-    $('.answer', ).hide();
-    $('#showanswer').show();
-    $('#hideanswer').hide();
-  });
 });
