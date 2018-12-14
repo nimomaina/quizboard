@@ -11,9 +11,9 @@ This is a site that allow users to answer questions from a multiple choice quest
 ## Behaviour Driven Development
 |Behaviour                           |Specification|
 |:-----------------------------------|:-------------------------------------------------|
-|1.The site gives a user multiple choice questions| User is allowed to select only one choice|
-|2.If the user selects a correct answer it awards a score| Every choice has a value attached to it. All wrong answers are awarded 0 and all correct answers are awarded a certain value|
-|3.It displays the total score| Adds all the values and give an output in percentage|
+|1. The site gives a user multiple choice questions| User is allowed to select only one choice|
+|2. If the user selects a correct answer it awards a score| Every choice has a value attached to it. All wrong answers are awarded 0 and all correct answers are awarded a certain value|
+|3. It displays the total score| Adds all the values and gives an output in percentage|
 
 ## Setup/Installation Requirements
 * Have knowledge of Github, HTML, BOOTSTRAP, JAVASCRIPT and CSS.
