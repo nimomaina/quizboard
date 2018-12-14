@@ -1,5 +1,5 @@
 # Question Board
-A multiple choice question board website - 
+A multiple choice question board that allows users to answer and gives a score.
  https://nimomaina.github.io/quizboard/
 
 ## By Wairimu Maina
@@ -8,16 +8,12 @@ A student at Moringa School and an aspiring software developer.
 ## Description
 This is a site that allow users to answer questions from a multiple choice questions and outputs their total score.
 
-## Behaviour Driven Development (BDD)
-* The site gives questions and requires users to select one answer.
-* It checks if the answer is correct and awards scores per answer.
-* It calculates for the user the total core and outputs the result.
-
-## Specifications
-* The site gives questions and requires users to select answers.
-* The site allows a user to select only one answer per question.
-* It compares the answer selected and the value it has.
-* Depending on the value each answer the user selects, it calculates the total score and outputs to the user
+## Behaviour Driven Development
+|Behaviour                           |Specification|
+|:-----------------------------------|:-------------------------------------------------|
+|1.The site gives a user multiple choice questions| User is allowed to select only one choice|
+|2.If the user selects a correct answer it awards a score| Every choice has a value attached to it. All wrong answers are awarded 0 and all correct answers are awarded a certain value|
+|3.It displays the total score| Adds all the values and give an output in percentage|
 
 ## Setup/Installation Requirements
 * Have knowledge of Github, HTML, BOOTSTRAP, JAVASCRIPT and CSS.
